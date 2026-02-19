@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>Contact us</title>
+    </head>
+
+    <body>
+        
+        <a href="index.html"><h1><img src="images/logo.jpg" width="50" height="50" alt="logo"> Ahmedino Real Estate</h1></a>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+
+        <img src="images/contactUs.png" width="100%" height="400" alt="image"/>  <br /> <br /> 
+        
+        <form action="#" method="POST" name="registrationForm">
+            <label>Work Experience:</label> <br /> <br />
+            <fieldset> <br />
+                <legend>Enter Employment Details</legend>
+
+                <label>*Job Title:</label>
+                <input type="text" name="jobTitle" placeholder="Enter your job title" required> 
+                <input type="checkbox" name="presentJob" value="presentJob"> Present Job <br /> <br />
+
+                <label>*From:</label>
+                <input type="date" name="from" required> <br /> <br />
+
+                <label>*Is this a civil servant position in your government?</label>
+                <input type="radio" name="civilServant" value="yes"> Yes
+                <input type="radio" name="civilServant" value="no"> No <br /> <br />
+
+                <label>*Is the employer part of the UN secreteriat?</label>
+                <input type="radio" name="unSecretariat" value="yes"> Yes
+                <input type="radio" name="unSecretariat" value="no"> No <br /> <br />
+
+                <label>*Is the employer another UN entity?</label>
+                <input type="radio" name="unEntity" value="yes"> Yes
+                <input type="radio" name="unEntity" value="no"> No <br /> <br />
+
+                <fieldset>
+                    <legend>Employer Details</legend>
+
+                    <label>*Name of Employer:</label>
+                    <input type="text" name="employerName" placeholder="Enter employer name" required> <br /> <br />
+
+                    <label>*Employer Phone:</label>
+                    <input type="tel" name="employerPhone" placeholder="Enter employer phone number" required> <br /> <br />
+
+                    <label>*Website of Employer:</label>
+                    <input type="url" name="employerWebsite" placeholder="Enter employer website" required> <br /> <br />
+
+                    <label>*Name of supervisor:</label>
+                    <input type="text" name="supervisorName" placeholder="Enter name of supervisor" required> <br /> <br />
+
+                    <label>*Supervisor's e-mail address:</label>
+                    <input type="email" name="supervisorEmail" placeholder="Enter supervisor's email address" required> <br /> <br />
+
+                    <label>* Do you consent to our contacting your current employer and supervisor for reference <br />
+                        verification? (if you are seleceted, they will be contacted irrespective of your response to <br /> 
+                        this question unless you withdraw your candidature) 
+                    </label>
+                    <input type="radio" name="referenceVerification" value="yes"> Yes
+                    <input type="radio" name="referenceVerification" value="no"> No <br /> <br />
+
+                    <label>Upload Passport</label>
+                    <input type="file" name="passport" accept="image/*"> <br /> <br />
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </fieldset>
+        </form> <br />
+
+        <form action="#" method="POST" name="registrationForm">
+            <fieldset>
+                <legend>Add Education Details</legend>
+
+                <label>*Exact Title in original language:</label>
+                <input type="text" name="educationTitle" placeholder="Enter your education title in original language" required> <br /> <br />
+
+                <label>*Titile of the degree/diploma in English or French language e.g. Bachelor in Law:</label>
+                <input type="text" name="titleOfDegree" placeholder="Enter your education title" required> <br /> <br />
+
+                <label>*Degree/Diploma Obtained:</label>
+                <input type="radio" name="degreeObtained" value="yes"> Yes
+                <input type="radio" name="degreeObtained" value="no"> No <br /> <br />
+
+                <label>*Attended:</label>
+                <label>From:</label>
+                <input type="date" name="from" required>
+                <label>To:</label>
+                <input type="date" name="to" required> <br /> <br />
+
+                <label>*Type of Institution:</label>
+                <select name="institutionType">
+                    <option value="institutionType">Select type of institution</option>
+                    <option value="polytechnic">Polytechnic</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                </select> <br /> <br />
+
+                <label>*Country:</label>
+                <select name="country">
+                    <option value="selectCountry">Select Country</option>
+                    <option value="nigeria" selected>Nigeria</option>
+                    <option value="ghana">Ghana</option>
+                    <option value="southAfrica">South Africa</option>
+                </select> <br /> <br />
+
+                <label>*City where attended</label>
+                <input type="text" name="cityAttended" placeholder="Enter city where attended" required> <br /> <br />
+
+                <label>*Please enter name of institution:</label>
+                <input type="text" name="institutionName" placeholder="Enter name of institution" required> <br /> <br />
+
+                <label>*Institution website:</label>
+                <input type="url" name="institutionWebsite" placeholder="Enter institution website" required> <br /> <br />
+
+                <label>*Main course of study:</label>
+                <select name="courseOfstudy">
+                    <option value="courseOfStudy">Select course of study</option>
+                    <option value="computerScience">Computer Science</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="massCommunication">Mass Communication</option>
+                    <option value="accounting">Accounting</option>
+                </select> <br /> <br />
+
+                <label>*Field of Study:</label>
+                <select name="fieldOfStudy">
+                    <option value="fieldOfStudy">Select field of study</option>
+                    <option value="computerScience">Computer Science</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="massCommunication">Mass Communication</option>
+                    <option value="accounting">Accounting</option>
+                </select> <br /> <br />
+
+                <label>*Specialization:</label>
+                <input type="text" name="specialization" placeholder="Enter specialization" required> <br /> <br />
+
+                <label>*Enrollment Status:</label>
+                <input type="radio" name="enrollmentStatus" value="fullTime"> Full-Time
+                <input type="radio" name="enrollmentStatus" value="partTime"> Part-Time <br /> <br />
+
+                <label>*Teaching Method</label>
+                <select name=""teachingMethod">
+                    <option value="teachingMethod">Select teaching method</option>
+                    <option value="onCampus">On-Campus</option>
+                    <option value="distanceLearning">Distance Learning</option>
+                    <option value="onlineLearning">Online Learning</option>
+                </select> <br /> <br />
+
+                <label>*Additional Comment:</label>
+                <textarea name="additionalComment" rows="2" cols="20" placeholder="Enter additional comment"></textarea> <br /> <br />
+
+                <label> If any exact choice is not listed in the drop-down menus, please seleect
+                    the closet relevant option and explain in the <br /> "Additional Comment".
+                </label> <br /> <br />
+
+                <label>Upload Document</label>
+                <input type="file" name="document" multiple> <br /> <br />
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
