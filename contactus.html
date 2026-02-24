@@ -1,13 +1,30 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Ahmedino Real Estate is a company" />
+        <meta name="keywords" content="Ahmedino Real Estate, property, services, real estate, customer service" />
+        <meta name="author" content="CloudNine Technology" />
+        <meta name="robots" content="index, follow" />
+
+        <meta property="og:title" content="Ahmedino Real Estate" />
+        <meta property="og:description" content="Ahmedino Real Estate is a company">
+        <meta property="og:image" content="url link/directory">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="the link of the project">
+
+        <link rel="icon" type="image/jpg" sizes="32x32" href="images/logo.jpg" />
         <title>Contact us</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
         
         <a href="index.html"><h1><img src="images/logo.jpg" width="50" height="50" alt="logo"> Ahmedino Real Estate</h1></a>
 
-        <ul>
+        <ul style="list-style-type: none;">
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutus.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
@@ -19,25 +36,31 @@
         
         <form action="#" method="POST" name="registrationForm">
             <label>Work Experience:</label> <br /> <br />
-            <fieldset> <br />
+            <fieldset>
                 <legend>Enter Employment Details</legend>
 
                 <label>*Job Title:</label>
+                &nbsp; &nbsp;&nbsp; &nbsp;
                 <input type="text" name="jobTitle" placeholder="Enter your job title" required> 
                 <input type="checkbox" name="presentJob" value="presentJob"> Present Job <br /> <br />
 
                 <label>*From:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <input type="date" name="from" required> <br /> <br />
 
                 <label>*Is this a civil servant position in your government?</label>
+                &nbsp; &nbsp;
                 <input type="radio" name="civilServant" value="yes"> Yes
                 <input type="radio" name="civilServant" value="no"> No <br /> <br />
 
                 <label>*Is the employer part of the UN secreteriat?</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                 <input type="radio" name="unSecretariat" value="yes"> Yes
                 <input type="radio" name="unSecretariat" value="no"> No <br /> <br />
 
                 <label>*Is the employer another UN entity?</label>
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                 <input type="radio" name="unEntity" value="yes"> Yes
                 <input type="radio" name="unEntity" value="no"> No <br /> <br />
 
@@ -45,26 +68,36 @@
                     <legend>Employer Details</legend>
 
                     <label>*Name of Employer:</label>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
                     <input type="text" name="employerName" placeholder="Enter employer name" required> <br /> <br />
 
                     <label>*Employer Phone:</label>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     <input type="tel" name="employerPhone" placeholder="Enter employer phone number" required> <br /> <br />
 
                     <label>*Website of Employer:</label>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     <input type="url" name="employerWebsite" placeholder="Enter employer website" required> <br /> <br />
 
                     <label>*Name of supervisor:</label>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     <input type="text" name="supervisorName" placeholder="Enter name of supervisor" required> <br /> <br />
 
                     <label>*Supervisor's e-mail address:</label>
+                    &nbsp; &nbsp; 
                     <input type="email" name="supervisorEmail" placeholder="Enter supervisor's email address" required> <br /> <br />
 
                     <label>* Do you consent to our contacting your current employer and supervisor for reference <br />
                         verification? (if you are seleceted, they will be contacted irrespective of your response to <br /> 
                         this question unless you withdraw your candidature) 
                     </label>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                     <input type="radio" name="referenceVerification" value="yes"> Yes
-                    <input type="radio" name="referenceVerification" value="no"> No <br /> <br />
+                    <input type="radio" name="referenceVerification" value="no"> No <br > <br />
 
                     <label>Upload Passport</label>
                     <input type="file" name="passport" accept="image/*"> <br /> <br />
@@ -80,22 +113,31 @@
                 <legend>Add Education Details</legend>
 
                 <label>*Exact Title in original language:</label>
+                &nbsp; &nbsp; &nbsp; 
                 <input type="text" name="educationTitle" placeholder="Enter your education title in original language" required> <br /> <br />
 
                 <label>*Titile of the degree/diploma in English or French language e.g. Bachelor in Law:</label>
+                &nbsp; &nbsp;  
                 <input type="text" name="titleOfDegree" placeholder="Enter your education title" required> <br /> <br />
 
                 <label>*Degree/Diploma Obtained:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                 <input type="radio" name="degreeObtained" value="yes"> Yes
                 <input type="radio" name="degreeObtained" value="no"> No <br /> <br />
 
                 <label>*Attended:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>From:</label>
                 <input type="date" name="from" required>
+                &nbsp; 
                 <label>To:</label>
                 <input type="date" name="to" required> <br /> <br />
 
                 <label>*Type of Institution:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <select name="institutionType">
                     <option value="institutionType">Select type of institution</option>
                     <option value="polytechnic">Polytechnic</option>
@@ -104,6 +146,9 @@
                 </select> <br /> <br />
 
                 <label>*Country:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <select name="country">
                     <option value="selectCountry">Select Country</option>
                     <option value="nigeria" selected>Nigeria</option>
@@ -112,15 +157,22 @@
                 </select> <br /> <br />
 
                 <label>*City where attended</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                 <input type="text" name="cityAttended" placeholder="Enter city where attended" required> <br /> <br />
 
                 <label>*Please enter name of institution:</label>
+                &nbsp; &nbsp; 
                 <input type="text" name="institutionName" placeholder="Enter name of institution" required> <br /> <br />
 
                 <label>*Institution website:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
                 <input type="url" name="institutionWebsite" placeholder="Enter institution website" required> <br /> <br />
 
                 <label>*Main course of study:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;
                 <select name="courseOfstudy">
                     <option value="courseOfStudy">Select course of study</option>
                     <option value="computerScience">Computer Science</option>
@@ -131,6 +183,9 @@
                 </select> <br /> <br />
 
                 <label>*Field of Study:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; 
                 <select name="fieldOfStudy">
                     <option value="fieldOfStudy">Select field of study</option>
                     <option value="computerScience">Computer Science</option>
@@ -141,14 +196,21 @@
                 </select> <br /> <br />
 
                 <label>*Specialization:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; 
                 <input type="text" name="specialization" placeholder="Enter specialization" required> <br /> <br />
 
                 <label>*Enrollment Status:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; 
                 <input type="radio" name="enrollmentStatus" value="fullTime"> Full-Time
                 <input type="radio" name="enrollmentStatus" value="partTime"> Part-Time <br /> <br />
 
-                <label>*Teaching Method</label>
-                <select name=""teachingMethod">
+                <label>*Teaching Method:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <select name="teachingMethod">
                     <option value="teachingMethod">Select teaching method</option>
                     <option value="onCampus">On-Campus</option>
                     <option value="distanceLearning">Distance Learning</option>
@@ -156,6 +218,8 @@
                 </select> <br /> <br />
 
                 <label>*Additional Comment:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;
                 <textarea name="additionalComment" rows="2" cols="20" placeholder="Enter additional comment"></textarea> <br /> <br />
 
                 <label> If any exact choice is not listed in the drop-down menus, please seleect

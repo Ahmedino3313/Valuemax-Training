@@ -1,0 +1,14 @@
+h1 {
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 3px 10px rgb(0, 0, 10); 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: green;
+}
