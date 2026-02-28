@@ -1,3 +1,21 @@
+li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+li a:link {
+    border-left: 2px solid;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 650px;
+    margin-top: -70px;
+    margin-bottom: 50px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 h1 {
     color: white;
     font-size: 48px;
@@ -10,5 +28,19 @@ a {
 
 a:hover {
     color: white;
-    background-color: green;
+    background-color: rgb(87, 87, 245);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background: yellow;
+    width: 700px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    border-width: 7px;
 }
