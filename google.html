@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" type="image/jpg" sizes="32x32" href="images/logo.jpg" />
+        <link rel="icon" type="image/jpg" sizes="32x32" href="images/logo.png">
         <title>Google Input</title>
 
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -12,24 +12,23 @@
 
             h2 {
                 text-align: center;
-                margin-top: 200px;
-                font-size: 48px;
-                margin-bottom: -5px;
+                margin-top: 120px;
+                font-size: 60px;
+                margin-bottom: 10px;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
 
                 input {
-                    width: 800px;
-                    padding: 10px;
+                    width: 1000px;
                     border: 2px solid black;
                     border-radius: 50px;
-                    padding: 20px;
+                    padding: 25px;
                     background: white;
-                    margin-left: 250px;
+                    margin-left: 300px;
                     background-image: url("images/search.png");
                     background-repeat: no-repeat;
-                    background-position: 780px;
-                    background-size: 30px 30px;
+                    background-position: 920px;
+                    background-size: 40px 40px;
 
                 }
 
@@ -37,22 +36,60 @@
                     box-shadow: 0px 0px 5px;
                 }
 
+            .gOne {
+                color: red;
+            }
+            .oOne {
+                color: yellow;
+            }
+            .oTwo {
+                color: red;
+            }
+            .gTwo { 
+                color: blue;
+            }
+            .l {
+                color: yellow;
+            }
+            .e {
+                color: brown;
+            }
+
+
+
+
+
         </style>
 
     </head>
     <body>
         
-        <a href="index.html"><h1><img src="images/logo.jpg" width="50" height="50" alt="logo"> Ahmedino Real Estate</h1></a>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/logo.png" alt="FCMB Logo">
+                </div>
 
-        <ul style="list-style-type: none;">
-            <li> <a href="index.html">Home</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="product.html">Product</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-            <li><a href="google.html">Google</a></li>
-        </ul>
-            <h2>Google</h2> <br>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="google.html">Google</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>
+                <span class="gOne">G</span>
+                <span class="oOne">o</span>
+                <span class="oTwo">o</span>
+                <span class="gTwo">g</span>
+                <span class="l">l</span>
+                <span class="e">e</span>
+            </h2> <br>
             <input type="text" name="google" placeholder="Search Google" title="search">
         
     </body>
