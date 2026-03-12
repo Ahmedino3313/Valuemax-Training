@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: rgba(241, 241, 235, 0.685);
+}
+
+.logo img {
+    width: 70px;
+    margin-left: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu a:visited {
+    color: #666;
+}
+
+.menu a:hover {
+    color: #4F258B;
+    border-bottom: 2px solid purple;
+}
+
+.menu a:active {
+    color: #FDBE19;
+}
+
+.focusSection {
+    position: relative;
+    background: url("images/bg.jpg") center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 0, 90, 0.7);
+    z-index: 0;
+}
+
+.containerBox {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.subtitle {
+    color: #FCC30B;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* .subtitle::before,
+.subtitle::after {
+    content: "";
+    width: 40px;
+    height: 5px;
+    background: #FCC30B;
+    display: block;
+} */
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.description {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 60px;
+    color: #ddd;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 30px;
+}
+
+/* Purple card  */
+
+.cardPurple {
+    padding: 30px;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+    min-height: 250px;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #9316FB, #632AE4);
+    cursor: pointer;
+}
+
+.cardPurple h3 {
+    margin-bottom: 15px;
+}
+
+.cardPurple p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.cardPurple a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cardPurple i {
+    background: #9F4BFD;
+}
+
+#one {
+    background: #9F4BFD;
+}
+
+.cardPurple:hover {
+    transform: scale(1.04);
+}
+
+.cardPurple:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+/* Blue card  */
+
+.cardBlue {
+    padding: 30px;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+    min-height: 250px;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #3352FA, #343CD3);
+    cursor: pointer;
+}
+
+.cardBlue h3 {
+    margin-bottom: 15px;
+}
+
+.cardBlue p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.cardBlue a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cardBlue i {
+    background: #5976FB;
+}
+
+#two {
+    background: #5976FB;
+}
+
+.cardBlue:hover {
+    transform: scale(1.04);
+}
+
+.cardBlue:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+/* Red Card  */
+
+.cardRed {
+    padding: 30px;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+    min-height: 250px;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #FF5900, #F71B3A);
+    cursor: pointer;
+}
+
+.cardRed h3 {
+    margin-bottom: 15px;
+}
+
+.cardRed p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.cardRed a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cardRed i {
+    background: #FF7A33;
+}
+
+#three {
+    background: #FF7A33;
+}
+.cardRed:hover {
+    transform: scale(1.04);
+}
+
+.cardRed:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+/* Teal card  */
+
+.cardTeal {
+    padding: 30px;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+    min-height: 250px;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #009971, #007F92);
+    cursor: pointer;
+}
+
+.cardTeal h3 {
+    margin-bottom: 15px;
+}
+
+.cardTeal p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.cardTeal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cardTeal i {
+    background: #33B471;
+}
+
+#four {
+    background: #33B471;
+}
+
+.cardTeal:hover {
+    transform: scale(1.04);
+}
+
+.cardTeal:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+/* Green Card  */
+
+.cardGreen {
+    padding: 30px;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+    min-height: 250px;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #00A542, #008A6B);
+    cursor: pointer;
+}
+
+.cardGreen h3 {
+    margin-bottom: 15px;
+}
+
+.cardGreen p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.cardGreen a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cardGreen i {
+    background: #33B571;
+}
+
+#five {
+    background: #33B571;
+}
+
+.cardGreen:hover {
+    transform: scale(1.04);
+}
+
+.cardGreen:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+/* Yellow card  */
+
+.cardYellow {
+    padding: 30px;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+    min-height: 250px;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #F1AE00, #FF7E00);
+    cursor: pointer;
+}
+
+.cardYellow h3 {
+    margin-bottom: 15px;
+}
+
+.cardYellow p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.cardYellow a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cardYellow i {
+    background: #FBB433;
+}
+
+#six {
+    background: #FBB433;
+}
+
+.cardYellow:hover {
+    transform: scale(1.04);
+}
+
+.cardYellow:hover .arrow {
+    transform: translateX(10px);
+}
+
+.material-icons {
+    margin-bottom: 20px;
+    font-size: 50px !important;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Explore BTN  */
+
+.btn {
+    margin-top: 50px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background: #FDC700;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.arrow {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+

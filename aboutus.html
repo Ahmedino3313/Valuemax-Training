@@ -3,128 +3,130 @@
     <head>
         <link rel="icon" type="image/jpg" sizes="32x32" href="images/logo.png">
         
-        <title>About Us</title>
+        <title>Focus Section</title>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="aboutus.css">
 
-        <style>
-            p {
-                background-image: url("images/logo.jpg");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
-                border-style: solid;
-                border-color: red;
-                width: 700px;
-                margin-left: 300px;
-                padding: 20px;
-                text-align: justify;
-            }
-
-            /* ul { list-style-type: none;
-                list-style-image: url("images/point.jpg");
-            } */
-        </style>
-
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 
     <body>
-        
-        <div class="container">
-            <div class="header">
-                <div class="logo">
-                    <img src="images/logo.png" alt="FCMB Logo">
-                </div>
+        <header>
+            <div class="container">
+                <div class="header">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="FCMB Logo">
+                    </div>
 
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="product.html">Product</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                        <li><a href="google.html">Google</a></li>
-                    </ul>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <li><a href="google.html">Google</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </header>
 
-        <img src="images/about_us_image.jpg" width="100%" height="400" alt="about us image"/>   
+        <section class="focusSection">
+            <div class="overlay"></div>
 
-        <!-- Example of all the four types of links  -->
+            <div class="containerBox">
+                <p class="subtitle">WHAT WE DO</p>
+                <h1>Our Focus Areas</h1>
 
-        <!-- Unordered List -->
-        <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Properties</li>
-            <li>Contact Us</li>
-        </ul>
+                <p class="description">
+                    Six integrated focus areas guide our work in youth-led peacebuilding, conflict prevention,
+                    and sustainable development.
+                </p>
 
-        <!-- Ordered List -->
-        <ol>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Properties</li>
-            <li>Contact Us</li>
-        </ol>
+                <div class="cards">
+                    <div class="cardPurple">
+                        <span><i class="material-icons">group</i></span>
+                        <span class="number" id="one">01</span>
 
-        <!-- descriptive list -->
-        <dl>
-            <dt>Fruit</dt>
-            <dd>Mango</dd>
-            <dd>Apple</dd>
-            <dd>Orange</dd>
+                        <h3>Youth & Women Peace and Security</h3>
 
-            <dt>Meat</dt>
-            <dd>Chicken</dd>
-            <dd>Beef</dd>
-            <dd>Turkey</dd>
-        </dl>
+                        <p>
+                            Empowering young people and women as active agents of peace thrpugh capacity building
+                            and advocacy. 
+                        </p>
 
-        <!-- Nested List -->
-        <ul>
-            <li>Home</li>
-            <li>About Us
-                <ul>
-                    <li>Our Team</li>
-                    <li>Our History</li>
-                    <li>Our Mission</li>
-                </ul>
-            </li>
-            <li>Services</li>
-            <li>Properties</li>
-            <li>Contact Us</li>
-        </ul>
+                        <a href="#">Learn more <span class="arrow">&rarr;</span></a>
+                    </div>
 
-        <p style="text-transform: capitalize;">
-        This text contains a citation. This text contains a superscript This text contains a subscript 
-        This text contains a highlighted words This is some text. This text is emphasized
-        This text contains a deleted word. This is some original text This is some new text that has been added.
-        This text was added on January 1st, 2022.This text is deletedThis text is added
-        This text contains a citation. This text contains a superscript This text contains a subscript
-        This text contains a highlighted words This is some text. This text is emphasized
-        This text contains a deleted word. This is some original text This is some new text that has been added.
-        This text was added on January 1st, 2022.This text is deleted This text is added
-        This text contains a citation. This text contains a superscript This text contains a subscript 
-        This text contains a highlighted words This is some text. This text is emphasized
-        This text contains a deleted word. This is some original text This is some new text that has been added.
-        This text was added on January 1st, 2022.This text is deletedThis text is added
-        This text contains a citation. This text contains a superscript This text contains a subscript
-        This text contains a highlighted words This is some text. This text is emphasized
-        This text contains a deleted word. This is some original text This is some new text that has been added.
-        This text was added on January 1st, 2022.This text is deleted This text is added
-        </p> <br> <br>
+                    <div class="cardBlue">
+                        <span><i class="material-icons">shield</i></span>
+                        <span class="number" id="two">02</span>
 
+                        <h3>Conflict Management & PeaceBuilding</h3>
 
-        <ul style="list-style-type: none; list-style-image: url(images/point.jpg); margin-left: 50px;">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Product</li>
-            <li>Contact Us</li>
-        </ul>
+                        <p>
+                            Building skills to identify and handle conflicts sensibly, fairly, and efficiently.
+                        </p>
 
+                        <a href="#">Learn more <span class="arrow">&rarr;</span></a>
+                    </div>
+
+                    <div class="cardRed">
+                        <span><i class="material-icons">warning</i></span>
+                        <span class="number" id="three">03</span>
+
+                        <h3>Prevention of Violent Extremism</h3>
+
+                        <p>
+                            Proactive measures to combat extremism through education and community engagement.
+                        </p>
+
+                        <a href="#">Learn more <span class="arrow">&rarr;</span></a>
+                    </div>
+
+                    <div class="cardTeal">
+                        <span><i class="material-icons">balance</i></span>
+                        <span class="number" id="four">04</span>
+
+                        <h3>Governance & Accountability</h3>
+
+                        <p>
+                            Promoting inclusive, transparent, and accountable governance through civic awareness.
+                        </p>
+
+                        <a href="#">Learn more <span class="arrow">&rarr;</span></a>
+                    </div>
+
+                    <div class="cardGreen">
+                        <span><i class="material-icons">eco</i></span>
+                        <span class="number" id="five">05</span>
+
+                        <h3>Climate & Environmental Security</h3>
+
+                        <p>
+                            Integrating climate action with peacebuilding to address resources conflicts.
+                        </p>
+
+                        <a href="#">Learn more <span class="arrow">&rarr;</span></a>
+                    </div>
+
+                    <div class="cardYellow">
+                        <span><i class="material-icons">menu_book</i></span>
+                        <span class="number" id="six">06</span>
+
+                        <h3>Peace Education</h3>
+
+                        <p>
+                            Equiping communities with knowledge and skills for peaceful conflict resolution.
+                        </p>
+
+                        <a href="#">Learn more <span class="arrow">&rarr;</span></a>
+                    </div>
+                </div>
+
+                <button class="btn">Explore All Programmes <span class="arrow">&rarr;</span></button>
+            </div>
+        </section>
     </body>
 </html>
