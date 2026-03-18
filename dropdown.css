@@ -1,0 +1,81 @@
+.dropdown {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        left: 500px;
+        
+}
+
+.dropdown p {
+        background: green;
+        border: 1px solid black;
+        color: white;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+        animation-name: display;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+}
+
+.dropdown a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+}
+
+.dropdownContent {
+        display: none;
+        position: absolute;
+}
+
+.dropdown:hover .dropdownContent {
+        display: block;
+}
+
+
+@keyframes display {
+        0% {
+            background: yellow;
+            color: white;
+        }
+
+        25% {
+            background: blue;
+            color: white;
+        }
+
+        50% {
+            background: red;
+            color: white;
+        }
+
+        75% {
+            background: green;
+            color: white;
+        }
+
+        100% {
+            background: purple;
+            color: white;
+        }
+
+}
+
+.me {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    transition: width 2s ease 1s, height 2s, border-radius 2s;
+}
+
+.me:hover {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
